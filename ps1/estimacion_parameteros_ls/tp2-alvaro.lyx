@@ -1,0 +1,603 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage[bottom]{footmisc}
+\usepackage[hang,bf]{caption}
+
+\usepackage[spanish]{babel}
+
+\addto\captionsspanish{
+\def\tablename{Tabla}
+\def\listtablename{\'Indice de tablas}
+}
+
+%Incluir librería para listado código
+\usepackage{xcolor,listings}
+
+%fuentes y colores
+\lstset{
+ belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+  flexiblecolumns=true,
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=10pt,                   % how far the line-numbers are from the code
+  numberstyle=\footnotesize, % the style that is used for the line-numbers
+  tabsize=4,
+}
+
+%Incluir librería para listado código
+\usepackage{xcolor,listings}
+
+%fuentes y colores
+\lstset{
+ belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+  flexiblecolumns=true,
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=10pt,                   % how far the line-numbers are from the code
+  numberstyle=\footnotesize, % the style that is used for the line-numbers
+  tabsize=4,
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 70pt
+\topmargin 3cm
+\rightmargin 70pt
+\bottommargin 2cm
+\headheight 35pt
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Left Header
+\begin_inset Graphics
+	filename /home/alvaro/Facultad/logo-facu-encabezado.jpg
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Center Header
+
+\end_layout
+
+\begin_layout Right Header
+
+\noun on
+Procesamiento de Señales I
+\noun default
+ - 1er.
+ cuatrimestre de 2015
+\begin_inset Newline newline
+\end_inset
+
+Estimación de parámetros utilizando el método LS - Nombre (Padrón)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename /home/alvaro/Facultad/logo-facu-caratula.jpg
+	width 10cm
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+86.51 - Procesamiento de Señales I
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+Estimación de parámetros utilizando el método LS 
+\size larger
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nombre
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Correo electrónico
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Padrón
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gaona, Alvaro Joaquín
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+alvgaona@gmail.com
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+93394
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+1º cuatrimestre de 2015
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Objetivo
+\end_layout
+
+\begin_layout Standard
+El presente trabajo práctico tiene como primer punto utilizar el método
+ de estimación por cuadrados mínimos para estimar parámetros.
+ En este caso, consistió en la estimación de la posición de un vehículo
+ sobre algún terreno usando datos ruidosos provenientes de alguna medición
+ con acelerómetros.
+ Para ello, fue necesario estimar distintos tipos de errores.
+\end_layout
+
+\begin_layout Section
+Desarrollo
+\end_layout
+
+\begin_layout Subsection
+Parte I
+\end_layout
+
+\begin_layout Standard
+En primer lugar, cualquier aceleracion medida puede ser expresada como 
+\begin_inset Formula 
+\[
+A_{medida,i}=A_{real,i}(1+K_{i})+E_{sesgo,i}+E_{ruido,i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Siendo i cualquiera de los dos ejes.
+ En general el sistema viene dado por 
+\begin_inset Formula 
+\[
+y=Ax+\eta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con 
+\begin_inset Formula $\eta$
+\end_inset
+
+ siendo el ruido.
+ Por lo tanto, el sistema empleado va a ser 
+\begin_inset Formula $y\simeq Ax$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A partir del ensayo, en el que se mide la aceleración para distintos ángulos
+ del acelerómetro al hacerlo rotar, se pretende estimar los valores de sesgo
+ y error de escalado de cada eje.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename tp2/ensayo.png
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ensayo con los acelerometros
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por ende, las ecuaciones correspondientes son las siguientes:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{x}\simeq-gsen(\theta)(1+K_{x})+e_{sx}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{y}\simeq-gcos(\theta)(1+K_{y})+e_{sy}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Teniendo muchas muestras se puede realizar un sistema de ecuaciones para
+ estimar los errores de la siguiente manera.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[\begin{array}{c}
+a_{x}(1)\\
+a_{x}(2)\\
+\vdots\\
+a_{x}(N-1)\\
+a_{x}(N)
+\end{array}\right]\simeq\left[\begin{array}{cc}
+-g\cdot sen(\theta_{1}) & 1\\
+-g\cdot sen(\theta_{2}) & 1\\
+\vdots & \vdots\\
+-g\cdot sen(\theta_{N-1}) & 1\\
+-g\cdot sen(\theta_{N}) & 1
+\end{array}\right]\left[\begin{array}{c}
+1+K_{x}\\
+e_{sx}
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[\begin{array}{c}
+a_{y}(1)\\
+a_{y}(2)\\
+\vdots\\
+a_{y}(N-1)\\
+a_{y}(N)
+\end{array}\right]\simeq\left[\begin{array}{cc}
+-g\cdot cos(\theta_{1}) & 1\\
+-g\cdot cos(\theta_{2}) & 1\\
+\vdots & \vdots\\
+-g\cdot cos(\theta_{N-1}) & 1\\
+-g\cdot cos(\theta_{N}) & 1
+\end{array}\right]\left[\begin{array}{c}
+1+K_{y}\\
+e_{sy}
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este sistema se encuentra sobredeterminado, es decir, no existe solución.
+ Es por eso que se realiza el método de cuadrados mínimos para estimar las
+ incognitas.
+\end_layout
+
+\begin_layout Subsection
+Parte 2
+\end_layout
+
+\begin_layout Standard
+Para determinar la estimación de los errores, se hizo una simulación con
+ MATLAB, cuyo código se encuentra al final del documento.
+ El código resuelve el sistema de ecuaciones y grafica la trayectoria.
+\end_layout
+
+\begin_layout Standard
+Los valores de los errores son
+\end_layout
+
+\begin_layout Itemize
+Error de sesgo: 
+\begin_inset Formula $e_{sx}=0.0767$
+\end_inset
+
+, 
+\begin_inset Formula $e_{sy}=-0.0175$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Error de escalado: 
+\begin_inset Formula $K_{x}=-0.0301$
+\end_inset
+
+, 
+\begin_inset Formula $K_{y}=0.01$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{x}=(A^{t}A)^{-1}Av$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E[\hat{x}]=E\left[(A^{t}A)^{-1}A^{t}v\right]=E\left[(A^{t}A)^{-1}A^{t}(Ax+\eta)\right]=(A^{t}A)^{-1}A^{t}E[Ax+\eta]=...=x+E[\eta]=x\implies$
+\end_inset
+
+Insesgado
+\end_layout
+
+\begin_layout Standard
+Para calcular la varianza de ambos estimadores, se puede utilizar 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E[\hat{x}-E[\hat{x}])]=E[(A^{t}A)^{-1}Av-x+E[\eta]]=E[]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+http://www.stat.math.ethz.ch/~geer/bsa199_o.pdf
+\end_layout
+
+\end_body
+\end_document

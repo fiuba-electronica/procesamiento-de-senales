@@ -1,0 +1,10 @@
+% Contenido espectral de archivos de audio:
+% PE: 183-4920 Hz
+% KT: 197-7KHz
+% J: 0!-7KHz
+% HL: 200-7420Hz
+% GL: 200-8khz
+% CS: 240-5KHz
+% Frecuencia de muestreo - 16KHz
+% Transicion inferior entre 0 y 0,025 pi
+% Transicion superior entre 0.875 y pi

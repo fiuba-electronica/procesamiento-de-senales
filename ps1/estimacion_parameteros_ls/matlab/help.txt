@@ -1,0 +1,30 @@
+Rendimos solo pato, seba carrazoni y yo. a seba lo mando a rendir en la otra fecha, pero el le rogo y le mando a hacer un ejercicio mas, y aprobo raspando. pato desaprobo, y yo aprobe. Ac'a les paso lo que tomo extraido de una conversacion, asi que esta medio desordenado
+
+
+a mi me parecio que toma cosas medio especificas, que seguramente son las cosas que el hubiera dado si hubiera dado clases pero como no dio clases, muchas de esas cosas no las tenemos asi muy presentes
+
+a mi me hizo estimar una cte real "a" a partir de muchas muestras "y(i)" con ruido gaussiano de media nula "v" "y(i) = a+v"
+habia que usar cuadrados minimos y demostrarle que el estimador era insesgado y consistente
+
+era una matriz que quedaba un vector columna todo de unos, el "â" optimo era un escalar
+la vieja y conocida media muestral de proba
+
+ no era dificil, pero desconcertaba un poco la matriz y eso si venias muy acostumbrado al libro o la guia.
+despues me dijo" contame de que se trata prediccion lineal"
+le conte un poco, le dibuje el filtro de wiener para predecir
+y me dijo: imagina que le metes una entrada AR_N y el filtro tiene largo M, decime que pasa con el error y para M mayor menor o igual a N
+eso lo dijeron en la practica, pero en un momento me hizo calcular la matriz de correlacion, y eso era medio flashero
+y por ultimo me pregunto del punto 4 del tp
+le mostre lo que nos paso flor, y me pregunto porque daba 0 la sumatoria del seno que va ahi en los elementos que no son la diagonal
+
+le dije que era como si estuvieras integrando un seno en un periodo, ya que tenias N muestras entre 0 y 2pi, y despues me dijo cómo tenias que tomar las N muestras para que te diera bien, y yo le dije que equiespaciadas, ya que si las tomabas todas juntitas no era 0 el termino ese, ya que no tenias muestras entre 0 y 2pi
+
+me parecio que eran preguntas muy especificas, no era como me lo imaginaba, pero igual me dio la sensacion de que te ayuda mas o menos. Yo creo que si las clases las hubiera dado el era mas sencillo el asunto, pero ahora es medio sorpresivo que te puede llegar a preguntar
+
+a mi no, pero a pato le pregunto algunas cosas de la primera parte
+
+a pato le preguntó qué pasaba si la entrada de un filtro de wiener era ESA, y que ventajas tenia eso
+la respuesta es que si la entrada es ESA, el filtro de wiener (que esfir ) es invariante en el tiempo, asi que es LTI
+la ventaja que tiene eso es que siempre es estable
+
+la contrapartida sería que si tenes un filtro que no es invariante en el tiempo, le mandas una entrada acotada y puede diverger, por lo que no te queda estable, a pesar de ser FIR
